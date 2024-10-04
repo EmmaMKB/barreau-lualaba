@@ -161,9 +161,7 @@
 
         <div id="gdlr-header-substitute"></div>
 
-        <!-- is search -->
-
-        <!-- content wrapper -->
+       @yield('content')
 
         <footer class="footer-wrapper">
             <div class="footer-container container">
