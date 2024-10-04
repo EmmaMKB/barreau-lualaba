@@ -11,7 +11,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1.0" />
 
-    <title>Barreau du Lualaba</title>
+    <title>Barreau de Lualaba - Accès Équitable à la Justice</title>
+    <meta name="description" content="Le Barreau de Lualaba encadre les avocats et assure l'accès à la justice dans une région minière de la RDC, régulant les industries extractives et protégeant les droits des communautés locales." />
+    <meta name="keywords" content="Barreau de Lualaba, avocats, RDC, justice, industries extractives, droits des communautés, État de droit" />
+
 
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" href="{{ asset('assets/js/plugins/superfish/css/superfish.css') }}" type="text/css"
@@ -211,7 +214,8 @@
                             <div class="gdlr-space" style="margin-top: 10px;"></div>
 
                             <i class="gdlr-icon fa fa-envelope-o" style="color: #fff; font-size: 16px;"></i>
-                            <a href="mailto:barreaulualaba@gmail.com" class="__cf_email__">barreaulualaba@gmail.com</a>
+                            <a href="mailto:barreaulualaba@gmail.com"
+                                class="__cf_email__">barreaulualaba@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -438,7 +442,7 @@
     <script>
         var htmlDivCss = unescape(
             "%23rev_slider_1_1%20.uranus.tparrows%20%7B%0A%20%20width%3A50px%3B%0A%20%20height%3A50px%3B%0A%20%20background%3Argba%28255%2C255%2C255%2C0%29%3B%0A%20%7D%0A%20%23rev_slider_1_1%20.uranus.tparrows%3Abefore%20%7B%0A%20width%3A50px%3B%0A%20height%3A50px%3B%0A%20line-height%3A50px%3B%0A%20font-size%3A40px%3B%0A%20transition%3Aall%200.3s%3B%0A-webkit-transition%3Aall%200.3s%3B%0A%20%7D%0A%20%0A%20%20%23rev_slider_1_1%20.uranus.tparrows%3Ahover%3Abefore%20%7B%0A%20%20%20%20opacity%3A0.75%3B%0A%20%20%7D%0A"
-            );
+        );
         var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
         if (htmlDiv) {
             htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
