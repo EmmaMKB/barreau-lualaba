@@ -23,9 +23,9 @@
                                             data-rotate=0 data-saveperformance=off data-title=Slide data-param1 data-param2
                                             data-param3 data-param4 data-param5 data-param6 data-param7 data-param8
                                             data-param9 data-param10 data-description>
-                                            <img src="{{ asset('assets/images/slider/slider-1.jpg') }}" alt title=slider-1 width=1800 height=1000
-                                                data-bgposition="center center" data-bgfit=cover data-bgrepeat=no-repeat
-                                                class=rev-slidebg data-no-retina>
+                                            <img src="{{ asset('assets/images/slider/slider-1.jpg') }}" alt title=slider-1
+                                                width=1800 height=1000 data-bgposition="center center" data-bgfit=cover
+                                                data-bgrepeat=no-repeat class=rev-slidebg data-no-retina>
                                             <div class="tp-caption tp-resizeme" id="slide-1-layer-1" data-x="center"
                                                 data-hoffset data-y="center" data-voffset="-182" data-width="['auto']"
                                                 data-height="['auto']" data-type="text" data-responsive_offset="on"
@@ -64,7 +64,8 @@
                                                 data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                                                 data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                                                 style="z-index: 8; min-width: 610px; max-width: 610px; max-width: 81px; max-width: 81px; white-space: normal; font-size: 20px; line-height: 38px; font-weight: 500; color: #dedede; letter-spacing: 0px; font-family: Open Sans;">
-                                                Au barreau du Lualaba, c’est la base de la confiance et de la justice que nos avocats incarnent dans la défense des droits.
+                                                Au barreau du Lualaba, c’est la base de la confiance et de la justice que
+                                                nos avocats incarnent dans la défense des droits.
                                             </div>
                                         </li>
                                         <li data-index=rs-2 data-transition=fade data-slotamount=default
@@ -73,9 +74,9 @@
                                             data-rotate=0 data-saveperformance=off data-title=Slide data-param1 data-param2
                                             data-param3 data-param4 data-param5 data-param6 data-param7 data-param8
                                             data-param9 data-param10 data-description>
-                                            <img src="{{ asset('assets/images/slider/slider-2.jpg') }}" alt title=slider-2 width=1800 height=1000
-                                                data-bgposition="center center" data-bgfit=cover data-bgrepeat=no-repeat
-                                                class=rev-slidebg data-no-retina>
+                                            <img src="{{ asset('assets/images/slider/slider-2.jpg') }}" alt title=slider-2
+                                                width=1800 height=1000 data-bgposition="center center" data-bgfit=cover
+                                                data-bgrepeat=no-repeat class=rev-slidebg data-no-retina>
                                             <div class="tp-caption tp-resizeme" id="slide-2-layer-1" data-x="center"
                                                 data-hoffset data-y="center" data-voffset="-182" data-width="['auto']"
                                                 data-height="['auto']" data-type="text" data-responsive_offset="on"
@@ -114,7 +115,9 @@
                                                 data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                                                 data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                                                 style="z-index: 8; min-width: 610px; max-width: 610px; max-width: 81px; max-width: 81px; white-space: normal; font-size: 20px; line-height: 38px; font-weight: 500; color: #dedede; letter-spacing: 0px; font-family: Open Sans;">
-                                                la justice puise sa force dans l’unité des avocats, hommes et femmes, qui œuvrent ensemble pour la défense des droits de tous et d’une société équitable.
+                                                la justice puise sa force dans l’unité des avocats, hommes et femmes, qui
+                                                œuvrent ensemble pour la défense des droits de tous et d’une société
+                                                équitable.
                                             </div>
                                         </li>
                                     </ul>
@@ -146,9 +149,12 @@
                                         <div class="gdlr-left-service-content">
                                             <p>
                                                 Le Barreau de Lualaba a été créé après la réorganisation territoriale
-                                                de 2015, lorsque la province du Lualaba a été détachée de l’ancien Katanga en RDC.
-                                                Il est né pour encadrer les avocats et assurer un accès équitable à la justice
-                                                dans cette région minière en pleine expansion, marquée par des enjeux économiques
+                                                de 2015, lorsque la province du Lualaba a été détachée de l’ancien Katanga
+                                                en RDC.
+                                                Il est né pour encadrer les avocats et assurer un accès équitable à la
+                                                justice
+                                                dans cette région minière en pleine expansion, marquée par des enjeux
+                                                économiques
                                                 et juridiques complexes.
                                             </p>
                                         </div>
@@ -177,6 +183,58 @@
                     </div>
                     <div class="clear"></div>
                 </section>
+
+                {{-- Conseil de l'ordre --}}
+                <section id="content-section-6">
+                    <div class="gdlr-color-wrapper gdlr-show-all no-skin"
+                        style="background-color: #ffffff; padding-top: 70px; padding-bottom: 0px;">
+                        <div class="container">
+                            <div class="attorney-item-wrapper">
+                                <div class="gdlr-item-title-wrapper gdlr-item pos-center gdlr-nav-container">
+                                    <div class="gdlr-item-title-head">
+                                        <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Conseil de l'ordre
+                                        </h3>
+                                        <div class="gdlr-item-title-nav">
+                                            <i class="icon-angle-left gdlr-flex-prev"></i><i
+                                                class="icon-angle-right gdlr-flex-next"></i>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="gdlr-item-title-divider"></div>
+                                </div>
+                                <div class="attorney-item-holder">
+                                    <div class="gdlr-attorney-carousel-item gdlr-item">
+                                        <div class="flexslider" data-type="carousel"
+                                            data-nav-container="attorney-item-holder" data-columns="4">
+                                            <ul class="slides">
+                                                @foreach ($members as $key => $member)
+                                                    <li class="gdlr-item gdlr-attorney-item">
+                                                        <div class="gdlr-attorney-thumbnail">
+                                                            <a href="{{ asset('assets/' . $member['image_path']) }}" data-rel="fancybox"><img
+                                                                    src="{{ asset('assets/' . $member['image_path']) }}"" alt=""
+                                                                    width="400" height="300" /></a>
+                                                        </div>
+                                                        <div class="attorney-content-wrapper">
+                                                            <h3 class="attorney-title gdlr-title">
+                                                                {{ $member['name'] }}
+                                                            </h3>
+                                                            <div class="attorney-position">{{ $member['title'] }}</div>
+                                                        </div>
+                                                    </li>
+                                                @endforeach
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </section>
+
 
                 {{-- <section id="content-section-6">
                     <div class="gdlr-color-wrapper gdlr-show-all no-skin"
