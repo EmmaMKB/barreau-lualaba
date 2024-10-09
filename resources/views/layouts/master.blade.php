@@ -76,7 +76,7 @@
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="#">L'assemblée générale</a></li>
                                         <li class="menu-item"><a href="#">Conseil de l'ordre</a></li>
-                                        <li class="menu-item"><a href="#">Bâtonnier</a></li>
+                                        <li class="menu-item"><a href="{{ route('batonnier-mot') }}">Bâtonnier</a></li>
 
                                     </ul>
                                 </li>
@@ -121,7 +121,7 @@
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="#">L'assemblée générale</a></li>
                                         <li class="menu-item"><a href="#">Conseil de l'ordre</a></li>
-                                        <li class="menu-item"><a href="#">Bâtonnier</a></li>
+                                        <li class="menu-item"><a href="{{ route('batonnier-mot') }}">Bâtonnier</a></li>
 
                                     </ul>
                                 </li>
@@ -224,8 +224,8 @@
                         <div class="menu-business-overview-footer-container">
                             <ul id="menu-business-overview-footer" class="menu">
                                 <li class="menu-item"><a href="#">Le barreau</a></li>
-                                <li class="menu-item"><a href="#">Galerie
-                                        Areas</a></li>
+                                <li class="menu-item"><a href="{{ route('photo-gallery') }}">Galerie
+                                        </a></li>
                                 <li class="menu-item"><a href="#">iBarreau</a></li>
                             </ul>
                         </div>
