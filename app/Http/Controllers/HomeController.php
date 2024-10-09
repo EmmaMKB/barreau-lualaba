@@ -76,4 +76,8 @@ class HomeController extends Controller
     function gallery() : View {
         return view('gallery');
     }
+
+    function batonnier() : View {
+        return view('batonnier');
+    }
 }
