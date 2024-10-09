@@ -72,4 +72,8 @@ class HomeController extends Controller
             'members' => $members
         ]);
     }
+
+    function gallery() : View {
+        return view('gallery');
+    }
 }

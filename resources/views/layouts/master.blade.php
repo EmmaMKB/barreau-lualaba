@@ -98,7 +98,7 @@
                                     class="menu-item menu-item-has-children-item menu-item-has-children gdlr-normal-menu">
                                     <a href="#" class="sf-with-ul-pre">Galerie</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="#">Photos</a></li>
+                                        <li class="menu-item"><a href="{{ route('photo-gallery') }}">Photos</a></li>
                                         <li class="menu-item"><a href="#">Vidéos</a></li>
                                     </ul>
                                 </li>
@@ -143,7 +143,7 @@
                                     class="menu-item menu-item-has-children-item menu-item-has-children gdlr-normal-menu">
                                     <a href="#" class="sf-with-ul-pre">Galerie</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="#">Photos</a></li>
+                                        <li class="menu-item"><a href="{{ route('photo-gallery') }}">Photos</a></li>
                                         <li class="menu-item"><a href="#">Vidéos</a></li>
                                     </ul>
                                 </li>
